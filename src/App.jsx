@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar"
+
 function App() {
   return (
     <div className="bg-navy min-h-screen text-white">
-      <h1 className="text-violet text-4xl p-8">Portfolio loading...</h1>
+      <Navbar />
     </div>
   )
 }
