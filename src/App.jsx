@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import WhatIDo from "./components/WhatIDo"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <WhatIDo />
       <Skills />
+      <Projects />
     </div>
   )
 }
