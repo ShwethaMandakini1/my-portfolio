@@ -24,7 +24,7 @@ export default function Experience() {
                 </div>
                 <div className="flex flex-col items-end gap-1">
                   <span className="text-xs px-3 py-1 rounded-full bg-violet/20 text-violet">Internship</span>
-                  <span className="text-gray-500 text-xs">2024</span>
+                  <span className="text-gray-500 text-xs">2025</span>
                 </div>
               </div>
               <ul className="flex flex-col gap-3 mb-4">
@@ -46,7 +46,7 @@ export default function Experience() {
               <h4 className="text-white font-semibold mb-1">BSc (Hons) Software Engineering</h4>
               <p className="text-cyan text-sm mb-1">NSBM Green University</p>
               <p className="text-gray-500 text-xs mb-4">In partnership with Plymouth University, UK</p>
-              <span className="text-xs px-3 py-1 rounded-full bg-cyan/20 text-cyan">2022 — Present</span>
+              <span className="text-xs px-3 py-1 rounded-full bg-cyan/20 text-cyan">2023 — Present</span>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {stats.map((s) => (
