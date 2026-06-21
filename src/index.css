@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,23 +17,16 @@ html {
 body {
   background-color: #080B16;
   color: #F8FAFC;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
-::-webkit-scrollbar-track {
-  background: #080B16;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #2D2745;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #8B5CF6;
-}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #080B16; }
+::-webkit-scrollbar-thumb { background: #2D2745; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #8B5CF6; }

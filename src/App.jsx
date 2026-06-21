@@ -6,10 +6,14 @@ import Projects from "./components/Projects"
 import Experience from "./components/Experience"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import CursorNetwork from "./components/CursorNetwork"
+import AnimatedBackground from "./components/AnimatedBackground"
 
 function App() {
   return (
-    <div className="bg-navy min-h-screen text-white">
+    <div className="min-h-screen text-white">
+      <AnimatedBackground />
+      <CursorNetwork />
       <Navbar />
       <Hero />
       <WhatIDo />

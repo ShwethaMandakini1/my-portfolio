@@ -2,8 +2,8 @@ export default function Footer() {
   return (
     <footer className="border-t border-border py-8">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <span className="text-violet font-semibold">
-          ShwethaMandakini<span className="text-white">():</span>
+        <span className="text-violet font-bold">
+          Shwetha Mandakini<span className="text-white">():</span>
         </span>
         <p className="text-gray-500 text-sm">© 2025 Shwetha Mandakini. All rights reserved.</p>
         <div className="flex gap-6">

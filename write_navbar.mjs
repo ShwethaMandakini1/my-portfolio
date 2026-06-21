@@ -1,10 +1,8 @@
-import { useState } from "react"
-
+import { writeFileSync } from 'fs'
+const code = `import { useState } from "react"
 const navLinks = ["Home", "About", "Skills", "Projects", "Experience", "Contact"]
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy/80 backdrop-blur-sm border-b border-border">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -35,4 +33,6 @@ export default function Navbar() {
       )}
     </nav>
   )
-}
+}`
+writeFileSync("src/components/Navbar.jsx", code)
+console.log("Navbar done!")

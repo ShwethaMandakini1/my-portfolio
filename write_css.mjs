@@ -1,0 +1,14 @@
+import { writeFileSync } from 'fs'
+const code = `@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background-color: #080B16; color: #F8FAFC; font-family: 'Lato', sans-serif; overflow-x: hidden; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #080B16; }
+::-webkit-scrollbar-thumb { background: #2D2745; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #8B5CF6; }`
+writeFileSync("src/index.css", code)
+console.log("CSS done!")

@@ -1,16 +1,16 @@
-export default function Experience() {
+import { writeFileSync } from 'fs'
+const code = `export default function Experience() {
   const stats = [
     { num: "7+", label: "Projects Completed", color: "text-violet" },
     { num: "5+", label: "Technologies", color: "text-cyan" },
     { num: "2+", label: "Years Learning", color: "text-blue" },
     { num: "1", label: "Internship", color: "text-violet" },
   ]
-
   return (
-    <section id="experience" className="py-24 relative">
+    <section id="experience" className="py-20 relative">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-violet text-sm font-medium tracking-widest uppercase mb-3">Background</p>
+          <p className="text-violet text-sm font-medium tracking-widest uppercase mb-2">Background</p>
           <h2 className="text-4xl font-bold text-white">Experience & Education</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -39,7 +39,6 @@ export default function Experience() {
               </div>
             </div>
           </div>
-
           <div>
             <h3 className="text-white font-semibold text-lg mb-6">Education</h3>
             <div className="bg-card border border-border rounded-xl p-6 hover:border-cyan/50 transition-colors duration-300 mb-6">
@@ -61,4 +60,6 @@ export default function Experience() {
       </div>
     </section>
   )
-}
+}`
+writeFileSync("src/components/Experience.jsx", code)
+console.log("Experience done!")

@@ -17,7 +17,7 @@ export default {
         border: "#2D2745",
       },
       fontFamily: {
-        sans: ["Space Grotesk", "sans-serif"],
+        sans: ["Lato", "sans-serif"],
       },
     },
   },
